@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects - Pravalika Reddy</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    <!-- Main Container -->
+    <div class="main-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="logo">
+                <img src="profile_pic.jpg" width="150px" height="150px" alt="Pravalika Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html"><i class="fas fa-home"></i>Home</a></li>
+                    <li><a href="about.html" class="active"><i class="fas fa-user"></i>About</a></li>
+                    <li><a href="projects.html"><i class="fas fa-list"></i>Projects</a></li>
+                    <li><a href="skills.html"><i class="fas fa-code"></i>Skills</a></li>
+                    <li><a href="contact.html"><i class="material-icons">&#xe7fe;</i>Connect</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <section class="about-section active">
+            <div class="content">
+                <h1 class="animated-title">My Projects</h1>
+                <br>
+                <br>
+                <div class="bio-container">
+                    <ul class="bio-list">
+                    </ul>
+                </div>
+                <div class="projects">
+                    <br>
+                    <ul class="projects-list">
+                        <li>
+                            <h3>Human Activity Recognition</h3>
+                            <br>
+                            <p>Developed a model to predict human activities using machine learning and Python. Achieved an accuracy of 90% by leveraging advanced data preprocessing and real-time activity recognition algorithms, enabling 40% improved responsiveness in smart home applications.</p>
+                            <img src="human_activity_recognition.jpg" width="35%" height="35%" alt="Human Activity Recognition Logo">
+                            <br><br>
+                            <p><button class="btn butt" onclick="location.href='https://github.com/Pravalikareddy21/aiml-project';">Source Code</button></p>
+                        </li>
+                        <li>
+                            <h3>Movie Recommendation System</h3>
+                            <br>
+                            <p>Implemented a collaborative filtering-based recommendation system using R. Leveraged the <code>recommenderlab</code> library to enhance user engagement by 25% with tailored suggestions. Visualized patterns with heatmaps, bar plots, and distribution charts for enhanced user insights.</p>
+                            <img src="movie recommendation system.jpg" width="35%" height="35%" alt="Movie Recommendation System Logo">
+                            <br><br>
+                            <p><button class="btn butt" onclick="location.href='https://github.com/Pravalikareddy21/r-project';">Source Code</button></p>
+                        </li>
+                        <li>
+                            <h3>Bank Management System</h3>
+                            <br>
+                            <p>Designed a Bank Management System in C to manage customer profiles, transactions, and loan applications. The system supported real-time transaction processing and file I/O for data persistence. It also included a loan module with interest calculations and detailed reports.</p>
+                            <img src="bank management.jpg" width="35%" height="35%" alt="Bank Management System Logo">
+                            <br><br>
+                            <p><button class="btn butt" onclick="location.href='https://github.com/Pravalikareddy21/bank-mangement-system';">Source Code</button></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Dynamic Animations -->
+        <div class="animation-bg">
+            <div class="animation-circle"></div>
+            <div class="animation-line"></div>
+        </div>
+        
+        <!-- Floating Particles -->
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
+
+    <!-- Script -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</body>
+</html>
